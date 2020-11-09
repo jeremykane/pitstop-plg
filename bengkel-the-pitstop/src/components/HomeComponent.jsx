@@ -35,27 +35,8 @@ class HomeComponent extends Component {
                         </span>
                       </p>
                     </div>
-
-                    <a> BENGKEL SEGALA JENIS MOBIL </a>
-                  </li>
-                  <li>
-                    <a> Reservasi Service : </a>
-                    <p> Jl. Letjen Harun Sohar No. 9
-                    (Simpang Bandara SMB II)
-                    Palembang
-                    (0711) 5710200 / 082175311779</p>
-                  </li>
-                  <li>
-                    <a href="https://ford-rma.co.id/id/pusat-layanan-ford-resmi">ford rma</a>
                   </li>
                 </ul>
-                BENGKEL THE PITSTOP
-Reservasi Service :
-Jl. Letjen Harun Sohar No. 9
-(Simpang Bandara SMB II)
-Palembang
-(0711) 5710200 / 082175311779
-ford-rma.co.id/id/pusat-layanan-ford-resmi
             </div>
         )}
 }

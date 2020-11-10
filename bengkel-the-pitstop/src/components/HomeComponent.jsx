@@ -15,19 +15,17 @@ class HomeComponent extends Component {
     render () {
 
         return (
-          <div className = "row">
+          <div>
             <div className = "content">
               <div className = "row">
-                <div className = "col-6">
-                  <div className = "card">
+                <div className = "mycol col1">
+                  <div className = "card desc">
                     <div className = "card-body">
-                      <h2 className = "card-title"> Bengkel The Pitstop </h2>
+                      <h2 className = "card-title">Bengkel The Pitstop </h2>
                       <ul>
-                        <div>
-                          <p className = "card-text">
-                            <h6 className="card-subtitle mb-2 text-muted">BENGKEL SEGALA JENIS MOBIL</h6>
-                            <span> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II) </span>
-                          </p>
+                        <div className = "card-text">
+                          <p className="card-subtitle mb-2 text-muted">BENGKEL SEGALA JENIS MOBIL</p>
+                          <span> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II) </span>
                         </div>
                         <div>
                           <p className = "card-text">
@@ -42,13 +40,7 @@ class HomeComponent extends Component {
                     </div>
                   </div>
                 </div>
-                <div classname = "col-8">
-                <div className = "card2">
-                    <div className = "card-body">
-                      <h2 className = "card-title"> Lorem Ipsum</h2>
-                      
-                    </div>
-                  </div>
+                <div className = "mycol col2">
                 </div>
               </div>
             </div>

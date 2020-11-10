@@ -39,10 +39,29 @@
   }
 }
 .container{
-  width:80%!important;
+  width:95%!important;
 }
 .content {
-  width:90%; margin-left:auto; margin-right:auto; }
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;;
+}
+
+.row{
+  min-height:60vh;
+}
+
+.col2{
+  width:100%;
+  background-image: url("./assets/pitstop-lg.jpeg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  min-height:100vh;
+}
+
+.col1{
+  width: 100%;
+}
 
 /*Small devices (landscape phones, 576px and up)*/
 
@@ -54,11 +73,20 @@
 @media (min-width: 768px) {
 
 header{background-color:white}
-.content {width:70%; float:left; }
+.content {min-width:80%; float:middle; }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     header{background-color:green}
+    .col1{
+      width:35%
+    }
+  
+    .col2{
+        min-height: 0vh;
+        text-align:right;
+        width:65%;
+    }
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */

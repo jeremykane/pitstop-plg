@@ -2,8 +2,10 @@
     text-align:left;
 }
 
-.col-6{
-    min-width:40%;
+.mycol{
     background-color:lavender;
 }
-
+/* 
+.desc{
+    max-height:
+} */

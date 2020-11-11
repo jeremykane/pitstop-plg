@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import "../styles/HomeComponentStyling.css"
 import Carousel from 'react-bootstrap/Carousel'
+import Row from 'react-bootstrap/Row'
+import Card from 'react-bootstrap/Card'
 import PitstopImage from "../assets/pitstop-lg.jpeg"
 class HomeComponent extends Component {
 
@@ -22,28 +24,28 @@ class HomeComponent extends Component {
         return (
           <div>
             <div className = "content">
-              <div className = "row">
+              <Row>
                 <div className = "mycol col1">
-                  <div className = "card desc">
-                    <div className = "card-body">
-                      <h2 className = "card-title">Bengkel The Pitstop </h2>
+                  <Card className = "desc">
+                    <Card.Body>
+                      <Card.Title><h2>Bengkel The Pitstop</h2></Card.Title>
                       <ul>
-                        <div className = "card-text">
+                        <Card.Text>
                           <p className="card-subtitle mb-2 text-muted">BENGKEL SEGALA JENIS MOBIL</p>
                           <span> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II) </span>
-                        </div>
+                        </Card.Text>
                         <div>
-                          <p className = "card-text">
+                          <Card.Text>
                             <span>
                               <strong> Phone:</strong> (0711) 5710200 / 082175311779
                               <strong> Instagram:</strong> @bengkelthepitstop
                               <strong> Link Ford-RMA:</strong> <a href="http://ford-rma.co.id/id/pusat-layanan-ford-resmi/">http://ford-rma.co.id/id/pusat-layanan-ford-resmi/</a>
                             </span>
-                          </p>
+                          </Card.Text>
                         </div>
                       </ul>
-                    </div>
-                  </div>
+                    </Card.Body>
+                  </Card>
                   <div>
                     <img src = "https://www.fitnessfirst.com.au/assets/img/brand/ff-logo-large.png"></img>
                   </div>
@@ -87,10 +89,21 @@ class HomeComponent extends Component {
                     </Carousel.Item>
                   </Carousel>
                 </div>
+              </Row>
+              <hr/>
+              <div>
+                <h1>PROMO</h1>
+                <p>Lorem Ipsum.</p>
               </div>
               <hr/>
               <div>
-              
+                <h1>Contact Us</h1>
+                <p>Lorem Ipsum.</p>
+              </div>
+              <hr/>
+              <div>
+                <h1>Product</h1>
+                <p>Lorem Ipsum.</p>
               </div>
             </div>
           </div>

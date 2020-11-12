@@ -1,6 +1,8 @@
 import React, { Component } from "react";
-import { MDBCol, MDBContainer, MDBRow, MDBFooter } from "mdbreact";
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import FacebookLogo from '../../assets/facebook-square-brands.svg'
+import Button from 'react-bootstrap/Button'
+import "../../styles/FooterComponentStyling.css"
 class FooterComponent extends Component {
     constructor(props) {
         super(props);
@@ -12,41 +14,101 @@ class FooterComponent extends Component {
         // const isUserloggedIn = AuthenticationService.isUserLoggedIn();
 
         return (
-            <MDBFooter color="red" className="font-small pt-4 mt-4 myFooter">
-                <div className="footer-copyright text-center py-3">
-                    <MDBContainer fluid className="text-center text-md-left">
-                    <MDBRow className = "footerRow">
-                    <MDBCol md="6" className="footerCol">
-                        <h5 className="title">Footer Content</h5>
-                        <p>
-                        Here you can use rows and columns here to organize your footer
-                        content.
-                        </p>
-                    </MDBCol>
-                    <MDBCol md="6" className="footerCol">
-                        <h5 className="title">Links</h5>
-                        <ul>
-                        <li className="list-unstyled">
-                            <a href="#!">Link 1</a>
+            <div>
+                <footer class="page-footer font-small mdb-color lighten-3 pt-4 myFooter">
+
+                <div class="container text-center text-md-left">
+
+                    <div class="row">
+
+                    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+                        <p>Here you can use rows and columns to organize your footer content.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
+                        esse
+                        quasi, veritatis totam voluptas nostrum.</p>
+
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none"/>
+
+                    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+
+                        <ul class="list-unstyled">
+                        <li>
+                            <p>
+                            <a href="/">PROJECTS</a>
+                            </p>
                         </li>
-                        <li className="list-unstyled">
-                            <a href="#!">Link 2</a>
+                        <li>
+                            <p>
+                            <a href="/">ABOUT US</a>
+                            </p>
                         </li>
-                        <li className="list-unstyled">
-                            <a href="#!">Link 3</a>
+                        <li>
+                            <p>
+                            <a href="/">BLOG</a>
+                            </p>
                         </li>
-                        <li className="list-unstyled">
-                            <a href="#!">Link 4</a>
+                        <li>
+                            <p>
+                            <a href="/">AWARDS</a>
+                            </p>
                         </li>
                         </ul>
-                    </MDBCol>
-                    </MDBRow>
-                </MDBContainer>
-                    <MDBContainer fluid>
-                    &copy; {new Date().getFullYear()} Copyright: <a href="https://www.mdbootstrap.com"> MDBootstrap.com </a>
-                    </MDBContainer>
+
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none"/>
+
+                    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+
+                        <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+
+                        <ul class="list-unstyled">
+                        <li>
+                            <p>
+                            <i class="fas fa-home mr-3"></i> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II)</p>
+                        </li>
+                        <li>
+                            <p>
+                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                        </li>
+                        <li>
+                            <p>
+                            <i class="fas fa-phone mr-3"></i> (0711) 5710200 / 0821753117798</p>
+                        </li>
+                        <li>
+                            <p>
+                            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        </li>
+                        </ul>
+
+                    </div>
+
+                    <hr class="clearfix w-100 d-md-none"/>
+
+                    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+
+                        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                        <a class="fab fa-twitter"></a>
+                        <a class="fab fa-facebook-f"></a>
+                        <a class="fab fa-pinterest"></a>
+                        <a class="fab fa-instagram"></a>
+                    </div>
+
+                    </div>
+
                 </div>
-                </MDBFooter>
+                <div class="footer-copyright text-center py-3 footerB">
+                &copy;{new Date().getFullYear()} PT. Putra Kalbar Sriwijaya
+                </div>
+
+                </footer>
+            </div>
         )
     }
 }

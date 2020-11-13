@@ -37,7 +37,7 @@ class HomeComponent extends Component {
                   </Card.Body>
                 </Card>
                 <div>
-                  <img src = "https://www.fitnessfirst.com.au/assets/img/brand/ff-logo-large.png"></img>
+                  <img src = "https://www.fitnessfirst.com.au/assets/img/brand/ff-logo-large.png" alt="fitnessfirst"></img>
                 </div>
               </div>
               <div className = "mycol col2">

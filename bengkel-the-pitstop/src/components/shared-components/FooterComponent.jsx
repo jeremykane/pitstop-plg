@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import FacebookLogo from '../../assets/facebook-square-brands.svg'
-import Button from 'react-bootstrap/Button'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import FacebookLogo from '../../assets/facebook-square-brands.svg'
+// import Button from 'react-bootstrap/Button'
 import "../../styles/FooterComponentStyling.css"
 class FooterComponent extends Component {
     constructor(props) {
@@ -15,15 +15,15 @@ class FooterComponent extends Component {
 
         return (
             <div>
-                <footer class="page-footer font-small mdb-color lighten-3 pt-4 myFooter">
+                <footer className="page-footer font-small mdb-color lighten-3 pt-4 myFooter">
 
-                <div class="container text-center text-md-left">
+                <div className="container text-center text-md-left">
 
-                    <div class="row">
+                    <div className="row">
 
-                    <div class="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
+                    <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
-                        <h5 class="font-weight-bold text-uppercase mb-4">Footer Content</h5>
+                        <h5 className="font-weight-bold text-uppercase mb-4">Footer Content</h5>
                         <p>Here you can use rows and columns to organize your footer content.</p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit amet numquam iure provident voluptate
                         esse
@@ -31,13 +31,13 @@ class FooterComponent extends Component {
 
                     </div>
 
-                    <hr class="clearfix w-100 d-md-none"/>
+                    <hr className="clearfix w-100 d-md-none"/>
 
-                    <div class="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
+                    <div className="col-md-2 col-lg-2 mx-auto my-md-4 my-0 mt-4 mb-1">
 
-                        <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
+                        <h5 className="font-weight-bold text-uppercase mb-4">About</h5>
 
-                        <ul class="list-unstyled">
+                        <ul className="list-unstyled">
                         <li>
                             <p>
                             <a href="/">PROJECTS</a>
@@ -62,48 +62,48 @@ class FooterComponent extends Component {
 
                     </div>
 
-                    <hr class="clearfix w-100 d-md-none"/>
+                    <hr className="clearfix w-100 d-md-none"/>
 
-                    <div class="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
+                    <div className="col-md-4 col-lg-3 mx-auto my-md-4 my-0 mt-4 mb-1">
 
-                        <h5 class="font-weight-bold text-uppercase mb-4">Address</h5>
+                        <h5 className="font-weight-bold text-uppercase mb-4">Address</h5>
 
-                        <ul class="list-unstyled">
+                        <ul className="list-unstyled">
                         <li>
                             <p>
-                            <i class="fas fa-home mr-3"></i> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II)</p>
+                            <i className="fas fa-home mr-3"></i> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II)</p>
                         </li>
                         <li>
                             <p>
-                            <i class="fas fa-envelope mr-3"></i> info@example.com</p>
+                            <i className="fas fa-envelope mr-3"></i> info@example.com</p>
                         </li>
                         <li>
                             <p>
-                            <i class="fas fa-phone mr-3"></i> (0711) 5710200 / 0821753117798</p>
+                            <i className="fas fa-phone mr-3"></i> (0711) 5710200 / 0821753117798</p>
                         </li>
                         <li>
                             <p>
-                            <i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                            <i className="fas fa-print mr-3"></i> + 01 234 567 89</p>
                         </li>
                         </ul>
 
                     </div>
 
-                    <hr class="clearfix w-100 d-md-none"/>
+                    <hr className="clearfix w-100 d-md-none"/>
 
-                    <div class="col-md-2 col-lg-2 text-center mx-auto my-4">
+                    <div className="col-md-2 col-lg-2 text-center mx-auto my-4">
 
-                        <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
-                        <a class="fab fa-twitter"></a>
-                        <a class="fab fa-facebook-f"></a>
-                        <a class="fab fa-pinterest"></a>
-                        <a class="fab fa-instagram"></a>
+                        <h5 className="font-weight-bold text-uppercase mb-4">Follow Us</h5>
+                        <a className="fab fa-twitter"></a>
+                        <a className="fab fa-facebook-f"></a>
+                        <a className="fab fa-pinterest"></a>
+                        <a className="fab fa-instagram" href="https://www.instagram.com/bengkelthepitstop/"></a>
                     </div>
 
                     </div>
 
                 </div>
-                <div class="footer-copyright text-center py-3 footerB">
+                <div className="footer-copyright text-center py-3 footerB">
                 &copy;{new Date().getFullYear()} PT. Putra Kalbar Sriwijaya
                 </div>
 

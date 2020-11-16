@@ -10,7 +10,9 @@ class App extends React.Component {
         return (
           <div className = "App">
             <Router>
+              <div className = "header">
               <HeaderComponent/>
+              </div>
               <div className = "content">
                 <Switch>
                   <Route path = "/" component = {HomeComponent}/>

@@ -29,6 +29,10 @@
   color: white;
 }
 
+.header{
+  min-height: 20vh;
+}
+
 .App-link {
   color: #61dafb;
 }

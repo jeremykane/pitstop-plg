@@ -43,9 +43,9 @@ class HeaderComponent extends Component {
 
                     <Navbar.Collapse id="navbarsExample05">
                         <Nav className = "mr-auto">
-                            <Nav.Link href="/home" className="nav-item active"> <span class="sr-only">(current)</span>Home</Nav.Link>
-                            <Nav.Link href="/home" className="nav-item">Products</Nav.Link>
-                            <Nav.Link href="/home" className="nav-item">Contact Us</Nav.Link>
+                            <Nav.Link href="/home" className="nav-item active"> <span class="sr-only">(current)</span>HOME</Nav.Link>
+                            <Nav.Link href="/home" className="nav-item">PRODUCTS</Nav.Link>
+                            <Nav.Link href="/home" className="nav-item">CONTACT US</Nav.Link>
                             <Nav.Link href="/home" className="nav-item">FAQ</Nav.Link>
                         </Nav>
                     </Navbar.Collapse>

@@ -1,10 +1,16 @@
-.card-text{
-    text-align:left;
+.myrow{
+    background-color:purple;
+    width:100%;
 }
 
-.mycol{
-    background-color:lavender;
+.jumbotron{
+    min-height:100%;
 }
+
+.jumbotron h1{
+    font-size:5vw;
+}
+
 /* 
 .desc{
     max-height:

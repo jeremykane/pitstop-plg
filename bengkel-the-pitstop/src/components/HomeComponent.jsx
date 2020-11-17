@@ -3,7 +3,10 @@ import "../styles/HomeComponentStyling.css"
 import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
 import Card from 'react-bootstrap/Card'
+import { Jumbotron, Container } from 'reactstrap';
 import PitstopImage from "../assets/pitstop-lg.jpeg"
+import PitstopLogo from "../assets/images.jpg"
+import { Nav } from "react-bootstrap";
 class HomeComponent extends Component {
 
     constructor(props) {
@@ -22,77 +25,85 @@ class HomeComponent extends Component {
     render () {
 
         return (
-          <div className = "content">
-            <Row>
-              <div className = "mycol col1">
-                <Card className = "desc">
-                  <Card.Body>
-                    <Card.Title><h2>Bengkel The Pitstop</h2></Card.Title>
-                    <ul>
-                    <Card.Text>
-                        <p className="card-subtitle mb-2 text-muted">BENGKEL SEGALA JENIS MOBIL</p>
-                        <span> SERVICE MOBIL ASIA & EUROPE</span>
-                      </Card.Text>
-                    </ul>
-                  </Card.Body>
-                </Card>
-                <div>
-                  <img src = "https://www.fitnessfirst.com.au/assets/img/brand/ff-logo-large.png" alt="fitnessfirst"></img>
+          <div className = "wrapper">
+              <div className = "myrow">
+                <div className="section">
+                  <Row>
+                    <div className = "mycol col1">
+                      <Jumbotron fluid>
+                        <Container fluid>
+                          <h1 classNAme="display-3">BENGKEL THE PITSTOP</h1>
+                          <hr className="my-2"/>
+                          <p className="lead">All Solution for your car!</p>
+                        </Container>
+                      </Jumbotron>
+                    </div>
+                    <div className = "mycol col2">
+                      <Carousel className = "myCarousel">
+                        <Carousel.Item>
+                          <img
+                            className="d-block w-100"
+                            src= {PitstopImage}                        alt="First slide"
+                          />
+                          <Carousel.Caption>
+                            <h3>First Image</h3>                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </Carousel.Caption>
+                        </Carousel.Item>
+                        <Carousel.Item>
+                          <img
+                            className="d-block w-100"
+                            src= {PitstopImage}
+                            alt="Third slide"
+                          />
+                        <Carousel.Caption>
+                            <h3>Second Image</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                          </Carousel.Caption>
+                        </Carousel.Item>                        <Carousel.Item>
+                          <img
+                            className="d-block w-100"
+                            src= {PitstopImage}
+                            alt="Third slide"
+                            />
+                          <Carousel.Caption>
+                            <h3>Third Image</h3>
+                            <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                          </Carousel.Caption>
+                        </Carousel.Item>
+                      </Carousel>
+                    </div>
+                  </Row>
                 </div>
               </div>
-              <div className = "mycol col2">
-                <Carousel className = "myCarousel">
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src= {PitstopImage}                        alt="First slide"
-                    />
-                    <Carousel.Caption>
-                      <h3>First Image</h3>
-                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src= {PitstopImage}
-                    alt="Third slide"
-                    />
-                    <Carousel.Caption>
-                      <h3>Second Image</h3>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                  <Carousel.Item>
-                    <img
-                      className="d-block w-100"
-                      src= {PitstopImage}
-                      alt="Third slide"
-                      />
-                    <Carousel.Caption>
-                      <h3>Third Image</h3>
-                      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                    </Carousel.Caption>
-                  </Carousel.Item>
-                </Carousel>
+              <hr/>
+              <div>
+                <Nav fill variant = "tabs" defaultActiveKey="/promo">
+                  <Nav.Item>
+                    <Nav.Link href="#">PROMO</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="#"> CONTACT US</Nav.Link>
+                  </Nav.Item>
+                  <Nav.Item>
+                    <Nav.Link href="#"> PRODUCTS </Nav.Link>
+                  </Nav.Item>
+                </Nav>
               </div>
-            </Row>
-            <hr/>
-            <div>
-              <h1>PROMO</h1>
-              <p>Lorem Ipsum.</p>
-            </div>
-            <hr/>
-            <div>
-              <h1>Contact Us</h1>
-              <p>Lorem Ipsum.</p>
-            </div>
-            <hr/>
-            <div>
-              <h1>Product</h1>
-              <p>Lorem Ipsum.</p>
-            </div>
-          </div> 
+              {/* <div>
+                <h1>PROMO</h1>
+                <p>Lorem Ipsum.</p>
+              </div>
+              <hr/>
+              <div>
+                <h1>Contact Us</h1>
+                <p>Lorem Ipsum.</p>
+              </div>
+              <hr/>
+              <div>
+                <h1>Product</h1>
+                <p>Lorem Ipsum.</p>
+              </div>*/}
+        </div>
         )}
 }
 export default HomeComponent;

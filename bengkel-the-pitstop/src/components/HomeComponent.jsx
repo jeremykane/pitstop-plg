@@ -32,7 +32,7 @@ class HomeComponent extends Component {
                     <div className = "mycol col1">
                       <Jumbotron fluid>
                         <Container fluid>
-                          <h1 classNAme="display-3">BENGKEL THE PITSTOP</h1>
+                          <h1 className="display-3">BENGKEL THE PITSTOP</h1>
                           <hr className="my-2"/>
                           <p className="lead">All Solution for your car!</p>
                         </Container>
@@ -77,32 +77,25 @@ class HomeComponent extends Component {
               </div>
               <hr/>
               <div>
-                <Nav fill variant = "tabs" defaultActiveKey="/promo">
-                  <Nav.Item>
-                    <Nav.Link href="#">PROMO</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#"> CONTACT US</Nav.Link>
-                  </Nav.Item>
-                  <Nav.Item>
-                    <Nav.Link href="#"> PRODUCTS </Nav.Link>
-                  </Nav.Item>
-                </Nav>
               </div>
-              {/* <div>
+              <div id = "promo">
                 <h1>PROMO</h1>
                 <p>Lorem Ipsum.</p>
               </div>
               <hr/>
               <div>
-                <h1>Contact Us</h1>
+                <h1>OUR PRODUCTS</h1>
                 <p>Lorem Ipsum.</p>
               </div>
               <hr/>
               <div>
-                <h1>Product</h1>
+                <h1>CONTACT US</h1>
                 <p>Lorem Ipsum.</p>
-              </div>*/}
+              </div>
+              <div>
+                <h1>FAQ</h1>
+                <p>Lorem Ipsum.</p>
+              </div>
         </div>
         )}
 }

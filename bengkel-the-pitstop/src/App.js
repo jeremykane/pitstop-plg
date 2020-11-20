@@ -6,23 +6,23 @@ import FooterComponent from "./components/shared-components/FooterComponent";
 import React from 'react';
 
 class App extends React.Component {
-    render() {
-        return (
-          <div className = "App">
-            <Router>
-              <div className = "header">
-              <HeaderComponent/>
-              </div>
-              <div className = "content">
-                <Switch>
-                  <Route path = "/" component = {HomeComponent}/>
-                </Switch>
-              </div>
-              <FooterComponent/>
-            </Router>
+  render() {
+    return (
+      <div className="App">
+        <Router>
+          <div className="header">
+            <HeaderComponent />
           </div>
-        );
-    }
+          <div className="content">
+            <Switch>
+              <Route path="/" component={HomeComponent} />
+            </Switch>
+          </div>
+          <FooterComponent />
+        </Router>
+      </div>
+    );
+  }
 }
 
 export default App;

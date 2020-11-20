@@ -7,6 +7,7 @@ import { Jumbotron, Container } from 'reactstrap';
 import PitstopImage from "../assets/pitstop-lg.jpeg"
 import PitstopLogo from "../assets/images.jpg"
 import { Nav } from "react-bootstrap";
+import PromoComponent from "./PromoComponent";
 class HomeComponent extends Component {
 
   constructor(props) {
@@ -81,6 +82,7 @@ class HomeComponent extends Component {
         <div id="promo">
           <h1>PROMO</h1>
           <p>Lorem Ipsum.</p>
+          <PromoComponent/>
         </div>
         <hr />
         <div>

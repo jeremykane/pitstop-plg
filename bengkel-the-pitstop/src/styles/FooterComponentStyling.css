@@ -1,7 +1,11 @@
 .myFooter{
     color:white;
     background-color:rgb(224, 0, 0);
-  }
+}
+
+.hidden{
+    display:none;
+}
 
 .fab {
     font-size: 26px;  

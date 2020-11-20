@@ -93,9 +93,9 @@ class FooterComponent extends Component {
 
                             <div className="col-md-2 col-lg-2 text-center mx-auto my-4">
                                 <h5 className="font-weight-bold text-uppercase mb-4">Follow Us On</h5>
-                                <a className="fab fa-twitter col-sm"></a>
-                                <a className="fab fa-facebook-f col-sm"></a>
-                                <a className="fab fa-instagram col-sm" href="https://www.instagram.com/bengkelthepitstop/"></a>
+                                <a className="fab fa-twitter col-sm" href="/"><span className="hidden">a</span></a>
+                                <a className="fab fa-facebook-f col-sm" href="/"><span className="hidden">a</span></a>
+                                <a className="fab fa-instagram col-sm" href="https://www.instagram.com/bengkelthepitstop/"><span className="hidden">a</span></a>
 
                             </div>
 

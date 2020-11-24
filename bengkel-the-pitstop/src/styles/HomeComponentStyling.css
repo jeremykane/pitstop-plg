@@ -1,6 +1,10 @@
 .myrow{
-    background-color:purple;
+    /* background-color:rgba(0,0,0,0.5); */
+    margin-top: 10vh;
     width:100%;
+    background-size: cover;
+    background-image: url("../assets/background.jpg");
+    min-height:100vh;
 }
 
 .jumbotron{

@@ -13,7 +13,7 @@ class App extends React.Component {
           <div className="header">
             <HeaderComponent />
           </div>
-          <div className="content">
+          <div className="wrapper">
             <Switch>
               <Route path="/" component={HomeComponent} />
             </Switch>

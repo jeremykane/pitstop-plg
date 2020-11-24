@@ -2,6 +2,11 @@
 .App {
   min-height: 100vh;
   text-align: center;
+  background-color:rgba(255,255,255,0)
+}
+
+.home{
+  z-index:50;
 }
 
 .App-logo {
@@ -49,19 +54,18 @@
 }
 
 .content {
-  margin-top: 15vh;
-  /* color:white; */
-  width:100%;
+  width:90%;
+  height:auto;
   margin-left: auto;
   margin-right: auto;
-  /* background-color:rgba(0,0,0,0.5); */
   filter: drop-shadow(.5px .5px 2px rgba(255,255,255,.646));
 }
 
 .section{
+  height:auto;
   margin-left:auto;
   margin-right: auto;
-  width: 90%;
+  width: 100%;
 }
 
 .col2{
@@ -73,6 +77,12 @@
   width: 100%;
 }
 
+.carousel-img{
+  min-height:100vh;
+  width:auto;
+  /* display:none; */
+}
+
 /*Small devices (landscape phones, 576px and up)*/
 
 @media (min-width: 576px) {
@@ -80,21 +90,26 @@
 /* Medium devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
-.content {min-width:80%; float:middle; }
+  .content {min-width:80%; float:middle; }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     .col1{
       float:left;
       text-align:left;
-      width:50%
+      width:70%
     }
   
     .col2{
         min-height: 0vh;
         text-align:right;
-        width:50%;
+        width:30%;
     }
+    .carousel-img{
+      max-height:100vh;
+      width:100%;
+      /* display:none; */
+  }
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */

@@ -1,21 +1,47 @@
-.myrow{
-    /* background-color:rgba(0,0,0,0.5); */
-    margin-top: 10vh;
-    width:100%;
-    background-size: cover;
-    background-image: url("../assets/background.jpg");
-    min-height:100vh;
+.mycol{
+    max-height:100%;
+    margin-top:25vh;
 }
 
 .jumbotron{
+    background-color: rgba(48, 48, 48, 0.0)!important;
     min-height:100%;
+    color: white;
 }
 
 .jumbotron h1{
-    font-size:5vw;
+    font-size: 90px !important;
+    line-height: 100px !important;
+    font-weight: 800 !important;
 }
 
-/* 
-.desc{
-    max-height:
-} */
+.overlay{
+    position:relative;
+    height: auto;;
+}
+
+.text-overlay, .img-overlay{
+    width: 100%;
+    height: auto;;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.img-overlay{
+    height:100%;
+    z-index:-10;
+    position:relative!important;
+}
+
+.text-overlay{
+    z-index: 10;
+}
+ 
+.my-carousel{
+    z-index:-5;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    display:none;
+}

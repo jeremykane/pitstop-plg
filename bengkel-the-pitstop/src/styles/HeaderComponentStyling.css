@@ -7,8 +7,12 @@
 }
 
 .nav-bar{
-    background-color:rgb(224, 0, 0);
+    background-color:rgba(224, 0, 0, 0);
     color:white;
+}
+
+.scrolling{
+    background-color:rgba(224, 0, 0, 1)!important;
 }
 
 /* ANIMATED X */

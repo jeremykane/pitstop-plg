@@ -10,7 +10,7 @@ import Promo3 from '../assets/promo3.png'
 class PromoComponent extends Component {
     render() {
         return (
-            <div>
+            <div className="content">
                 <OwlCarousel className="owl-theme" items="2" autoplay nav>
                     <div className="item">
                         <img src={Promo1} alt="promo1">

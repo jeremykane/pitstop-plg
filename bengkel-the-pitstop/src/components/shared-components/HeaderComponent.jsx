@@ -12,26 +12,32 @@ class HeaderComponent extends Component {
     constructor(props) {
         super(props);
         this.state = {
+            scrolling: false,
+            className : ''
         }
         window.onScroll = function() {
             this.test();
         }
 
         this.componentDidMount = this.componentDidMount.bind(this);
+        this.handleScroll = this.handleScroll.bind(this);
+        this.componentWillUnmount = this.componentWillUnmount(this);
     }
 
-
-    componentDidMount(){
+    componentDidMount() {
+        window.addEventListener('scroll', this.handleScroll);
+    }
+    
+    componentWillUnmount() {
+        window.removeEventListener('scroll', this.handleScroll);
     }
 
-    test(){
-        if (document.body.scrollTop > 80 || document.documentElement.scrollTop > 80){
-            // document.getElementsByClassName("header-logo").style.width = "50 px";
-            console.log(document.getElementsByClassName("header-logo"))
+    handleScroll(event) {
+        if (window.scrollY === 0 && this.state.scrolling === true) {
+            this.setState({scrolling: false, className: 'nav-bar'});
         }
-        else{
-            // document.getElementsByClassName("header-logo").style.width = "100 px";
-            console.log(document.getElementsByClassName("header-logo"))
+        else if (window.scrollY !== 0 && this.state.scrolling !== true) {
+            this.setState({scrolling: true, className: 'nav-bar scrolling'});
         }
     }
 
@@ -42,7 +48,8 @@ class HeaderComponent extends Component {
 
         return (
             <header>
-                <Navbar variant="dark" className="nav-bar" expand="lg"> 
+                <Navbar variant="dark" className={this.state.className} expand="lg" > 
+                
                     <div className="header-brand">
                         <Navbar.Brand href="/home"><img src={PitstopLogo} className="header-logo" alt = "Pitstop"></img></Navbar.Brand>
                         <Navbar.Brand href="/home"><img src={FordLogo} className="header-logo" alt = "Ford"></img></Navbar.Brand>

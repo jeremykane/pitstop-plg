@@ -8,11 +8,13 @@
 
 .nav-bar{
     background-color:rgba(224, 0, 0, 0);
+    transition: background-color 0.5s ease;
     color:white;
 }
 
 .scrolling{
     background-color:rgba(224, 0, 0, 1)!important;
+    transition: background-color 0.5s ease;
 }
 
 /* ANIMATED X */
@@ -79,6 +81,8 @@
     margin-top:-10px;
     margin-bottom:-7.5px;
     margin-left:-17px;
-    background-color: rgba(228, 227, 227, 0.7);
+    background-color: rgba(228, 227, 227, 1);
     color:white;
+    border-radius:15px 50px 30px 5px;
+    padding:15px;
 }

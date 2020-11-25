@@ -43,5 +43,15 @@
 }
 
 .carousel-control-prev, .carousel-control-next{
-    display:none;
+    display:none!important;
+}
+
+.logoRow{
+    right:0;
+    float:right;
+    padding:10;
+    background-color: rgba(180, 180, 180, 0.562)
+}
+.title-logo{
+    width:25vh;
 }

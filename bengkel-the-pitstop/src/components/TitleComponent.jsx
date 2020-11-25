@@ -1,11 +1,14 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 import { Jumbotron, Container, Card } from 'reactstrap';
 import BackgroundImage1 from "../assets/bg-img-1.jpg"
 import BackgroundImage2 from "../assets/bg-img-2.jpg"
 import BackgroundImage3 from "../assets/bg-img-3.jpg"
-import BackgroundSlideshow from 'react-background-slideshow'
+import FordLogo from "../assets/Ford_logo.png"
+import MahindraLogo from "../assets/Mahindra-logo.png"
+import PitstopLogo from "../assets/images.jpg"
 import "../styles/HomeComponentStyling.css"
 
 class TitleComponent extends Component {
@@ -26,11 +29,19 @@ class TitleComponent extends Component {
                                             </Container>
                                         </Jumbotron>
                                     </div>
-                                    <div className="mycol col2">
-                                        <Card>
-                                            <h1>a</h1>
-                                        </Card>
-                                    </div>
+                                    {/* <div className="mycol col2">
+                                        <Row className="logoRow">
+                                            <Col>
+                                                <img className="title-logo" src={PitstopLogo} alt="PitstopLogo"></img>
+                                            </Col>
+                                            <Col>
+                                                <img className="title-logo" src={FordLogo} alt="Ford"></img>
+                                            </Col>
+                                            <Col>
+                                                <img className="title-logo" src={MahindraLogo} alt="Mahindra"></img>
+                                            </Col>
+                                        </Row>
+                                    </div> */}
                                 </Row>
                             </div>
                             

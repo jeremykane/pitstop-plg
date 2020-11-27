@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
 import { Jumbotron, Container, Card } from 'reactstrap';
 import BackgroundImage1 from "../assets/bg-img-1.jpg"
 import BackgroundImage2 from "../assets/bg-img-2.jpg"
 import BackgroundImage3 from "../assets/bg-img-3.jpg"
-import FordLogo from "../assets/Ford_logo.png"
-import MahindraLogo from "../assets/Mahindra-logo.png"
-import PitstopLogo from "../assets/images.jpg"
 import "../styles/HomeComponentStyling.css"
 
 class TitleComponent extends Component {
@@ -21,7 +17,7 @@ class TitleComponent extends Component {
                             <div className="content">
                                 <Row className="myrow">
                                     <div className="mycol col1">
-                                        <Jumbotron fluid className="my-jumbo">
+                                        <Jumbotron fluid className="my-jumbo" id="title">
                                             <Container fluid>
                                                 <h1 className="display-3">BENGKEL THE PITSTOP</h1>
                                                 <hr className="my-2" />
@@ -29,19 +25,6 @@ class TitleComponent extends Component {
                                             </Container>
                                         </Jumbotron>
                                     </div>
-                                    {/* <div className="mycol col2">
-                                        <Row className="logoRow">
-                                            <Col>
-                                                <img className="title-logo" src={PitstopLogo} alt="PitstopLogo"></img>
-                                            </Col>
-                                            <Col>
-                                                <img className="title-logo" src={FordLogo} alt="Ford"></img>
-                                            </Col>
-                                            <Col>
-                                                <img className="title-logo" src={MahindraLogo} alt="Mahindra"></img>
-                                            </Col>
-                                        </Row>
-                                    </div> */}
                                 </Row>
                             </div>
                             
@@ -54,7 +37,8 @@ class TitleComponent extends Component {
                                     src={BackgroundImage1} alt="First slide"
                                     />
                                     <Carousel.Caption>
-                                    <h3>First Image</h3>                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                    <h3>First Image</h3>                            
+                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>

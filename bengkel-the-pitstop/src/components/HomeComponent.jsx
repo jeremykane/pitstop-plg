@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "../styles/HomeComponentStyling.css"
-import { Nav } from "react-bootstrap";
 import PromoComponent from "./PromoComponent";
 import TitleComponent from "./TitleComponent";
+import ProductsComponent from "./ProductsComponent";
 class HomeComponent extends Component {
 
   constructor(props) {
@@ -22,25 +22,23 @@ class HomeComponent extends Component {
 
     return (
       <div className="home">
-        <TitleComponent/>
-        <hr/>
-        <div>
+        <div id="title">
+          <TitleComponent/>
         </div>
+        <hr/>
         <div id="promo">
-          <h1>PROMO</h1>
-          <p>Lorem Ipsum.</p>
           <PromoComponent/>
         </div>
         <hr />
-        <div>
-          <h1>OUR PRODUCTS</h1>
-          <p>Lorem Ipsum.</p>
+        <div id="products">
+          <ProductsComponent/>
         </div>
         <hr />
         <div>
           <h1>CONTACT US</h1>
           <p>Lorem Ipsum.</p>
         </div>
+        <hr />
         <div>
           <h1>FAQ</h1>
           <p>Lorem Ipsum.</p>

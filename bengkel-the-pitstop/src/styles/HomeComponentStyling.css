@@ -5,11 +5,14 @@
 
 .jumbotron{
     background-color: rgba(48, 48, 48, 0.0)!important;
+}
+
+#title{
     min-height:100%;
     color: white;
 }
 
-.jumbotron h1{
+#title h1{
     font-size: 90px !important;
     line-height: 100px !important;
     font-weight: 800 !important;
@@ -39,7 +42,7 @@
 }
  
 .my-carousel{
-    z-index:-5;
+    z-index:5;
 }
 
 .carousel-control-prev, .carousel-control-next{
@@ -52,6 +55,30 @@
     padding:10;
     background-color: rgba(180, 180, 180, 0.562)
 }
+
 .title-logo{
     width:25vh;
+}
+
+.section-title{
+    float:left;
+    text-align:left;
+}
+
+.section-title h1{
+    font-size: 50px !important;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #d82627;
+}
+
+.sectiont-title p{
+    font-size: 1em;
+    line-height: 1.65714286em;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
+    color: #565656!important;
+    font-weight: 400;
 }

@@ -3,6 +3,8 @@ import "../styles/HomeComponentStyling.css"
 import PromoComponent from "./PromoComponent";
 import TitleComponent from "./TitleComponent";
 import ProductsComponent from "./ProductsComponent";
+import ContactUsComponent from "./ContactUsComponent"
+import FAQComponent from "./FAQComponent"
 class HomeComponent extends Component {
 
   constructor(props) {
@@ -35,13 +37,11 @@ class HomeComponent extends Component {
         </div>
         <hr />
         <div>
-          <h1>CONTACT US</h1>
-          <p>Lorem Ipsum.</p>
+          <ContactUsComponent/>
         </div>
         <hr />
         <div>
-          <h1>FAQ</h1>
-          <p>Lorem Ipsum.</p>
+          <FAQComponent/>
         </div>
       </div>
     )

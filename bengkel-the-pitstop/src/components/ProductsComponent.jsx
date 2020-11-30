@@ -25,35 +25,35 @@ class ProductsComponent extends Component {
                             </Container>
                     </Jumbotron>
                 </Row>
-                <Row>
-                    <Col>
-                    <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                        <div class="flipper">
-                            <div class="front" id="ford-card">
+                <Row className="products-row">                    
+                    <Col className = "products-col">
+                    <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+                        <div className="flipper">
+                            <div className="front" id="ford-card">
                                 FORD
                             </div>
-                            <div class="back">
+                            <div className="back">
                                 Hello From the Back
                             </div>
                         </div>
                     </div>
                     </Col>
-                    <Col>
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front" id="mahindra-card">
+                    <Col className = "products-col"> 
+                        <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div className="flipper">
+                                <div className="front" id="mahindra-card">
                                     MAHINDRA
                                 </div>
-                                <div class="back">
+                                <div className="back">
                                     Hello From the Back
                                 </div>
                             </div>
                         </div>
                     </Col>
-                    <Col>
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front"  id="service-card">
+                    <Col className = "products-col">
+                        <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div className="flipper">
+                                <div className="front"  id="service-card">
                                     SERVICE
                                 </div>
                                 <div class="back">
@@ -62,13 +62,13 @@ class ProductsComponent extends Component {
                             </div>
                         </div>
                     </Col>
-                    <Col>
-                        <div class="flip-container" ontouchstart="this.classList.toggle('hover');">
-                            <div class="flipper">
-                                <div class="front" id="sparepart-card">
+                    <Col className = "products-col">
+                        <div className="flip-container" ontouchstart="this.classList.toggle('hover');">
+                            <div className="flipper">
+                                <div className="front" id="sparepart-card">
                                     SPAREPART
                                 </div>
-                                <div class="back">
+                                <div className="back">
                                     Hello From the Back
                                 </div>
                             </div>

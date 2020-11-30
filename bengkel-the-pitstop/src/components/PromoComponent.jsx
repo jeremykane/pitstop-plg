@@ -6,6 +6,7 @@ import 'owl.carousel/dist/assets/owl.theme.default.min.css'
 import Promo1 from '../assets/promo1.png'
 import Promo2 from '../assets/promo2.png'
 import Promo3 from '../assets/promo3.png'
+import Promo4 from '../assets/promo1.png'
 import '../styles/PromoComponentStyle.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -46,7 +47,7 @@ class PromoComponent extends Component {
                             <p>Test</p>
                         </div>
                         <div className="item">
-                            <img src={Promo2} alt="promo3" className="promo-img">
+                            <img src={Promo4} alt="promo3" className="promo-img">
                             </img>
                             <p>Test</p>
                         </div>

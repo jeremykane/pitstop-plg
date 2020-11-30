@@ -61,8 +61,8 @@
 }
 
 .section-title{
-    float:left;
-    text-align:left;
+    /* float:left;
+    text-align:left; */
 }
 
 .section-title h1{
@@ -82,3 +82,11 @@
     color: #565656!important;
     font-weight: 400;
 }
+
+table{
+    margin-left:auto;
+    margin-right:auto;
+}
+th {
+    text-align: right; 
+  }

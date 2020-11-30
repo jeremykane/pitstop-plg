@@ -58,3 +58,15 @@
 #sparepartd-card{
     background-color: black !important;
 }
+
+.products-row{
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.products-col{
+	margin-left: auto;
+	margin-right: auto;
+	float: center;
+}

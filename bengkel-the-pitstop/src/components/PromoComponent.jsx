@@ -34,32 +34,26 @@ class PromoComponent extends Component {
                         <div className="item">
                             <img src={Promo1} alt="promo1" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                         <div className="item">
                             <img src={Promo2} alt="promo2" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                         <div className="item">
                             <img src={Promo3} alt="promo3" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                         <div className="item">
                             <img src={Promo4} alt="promo3" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                         <div className="item">
                             <img src={Promo3} alt="promo3" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                         <div className="item">
                             <img src={Promo2} alt="promo3" className="promo-img">
                             </img>
-                            <p>Test</p>
                         </div>
                     </OwlCarousel>
                 </div>

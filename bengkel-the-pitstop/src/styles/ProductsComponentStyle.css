@@ -2,10 +2,11 @@
 .flip-container {
 	perspective: 1000px;
 }
-	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
+
+/* flip the pane when hovered */
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
 
 .flip-container, .front, .back {
 	width: 320px;
@@ -23,7 +24,7 @@
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	position: absolute;
 	top: 0;
 	left: 0;

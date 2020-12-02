@@ -6,15 +6,10 @@
     color:white;
 }
 
-.nav-bar{
-    background-color:rgba(224, 0, 0, 0);
-    transition: background-color 0.5s ease;
-    color:white;
-}
-
-.scrolling{
+.navbar{
     background-color:rgba(224, 0, 0, 1)!important;
     transition: background-color 0.5s ease;
+    color:white;
 }
 
 /* ANIMATED X */
@@ -85,4 +80,34 @@
     color:white;
     border-radius:15px 50px 30px 5px;
     padding:15px;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+    /* Medium devices (tablets, 768px and up) */
+    
+    @media (min-width: 768px) { }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) {
+
+        .navbar{
+            background-color:rgba(0, 0, 0, 0)!important;
+            transition: background-color 0.5s ease;
+            color:white;
+        }
+
+        .scrolling{
+            background-color:rgba(224, 0, 0, 1)!important;
+            transition: background-color 0.5s ease;
+        }
+    
+    }
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) {
+    
+    }
 }

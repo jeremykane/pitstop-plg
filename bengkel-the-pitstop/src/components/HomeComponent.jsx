@@ -23,7 +23,7 @@ class HomeComponent extends Component {
   render() {
 
     return (
-      <div className="home">
+      <div id="home">
         <div id="title">
           <TitleComponent/>
         </div>
@@ -36,11 +36,11 @@ class HomeComponent extends Component {
           <ProductsComponent/>
         </div>
         <hr />
-        <div>
+        <div id="contactus">
           <ContactUsComponent/>
         </div>
         <hr />
-        <div>
+        <div id="faq">
           <FAQComponent/>
         </div>
       </div>

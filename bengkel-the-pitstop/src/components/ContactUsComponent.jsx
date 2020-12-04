@@ -60,8 +60,8 @@ class ContactUsComponent extends Component {
                                     <thead>
                                     </thead>
                                     <tbody>
-                                        <tr><th><a className="fab fa-instagram" href="/"><span className="hidden">a</span></a></th><td><p>@bengkelthepitstop</p></td></tr>
-                                        <tr><th><a className="fab fa-whatsapp" href="/"><span className="hidden">a</span></a></th><td><p>0821-7531-1779</p></td></tr>
+                                        <tr><th><a className="fab fa-instagram" href="/"><span className="hidden">a</span></a></th><td>@bengkelthepitstop</td></tr>
+                                        <tr><th><a className="fab fa-whatsapp" href="/"><span className="hidden">a</span></a></th><td>0821-7531-1779</td></tr>
                                     </tbody>
                                 </Table>
                             </Card.Body>

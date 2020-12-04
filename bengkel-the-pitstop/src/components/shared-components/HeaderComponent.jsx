@@ -5,6 +5,7 @@ import FordLogo from "../../assets/Ford_logo.png"
 import MahindraLogo from "../../assets/Mahindra-logo.png"
 import PitstopLogo from "../../assets/images.jpg"
 import "../../styles/HeaderComponentStyling.css"
+import {Link} from 'react-scroll'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faUser, faSignOutAlt } from '@fortawesome/free-solid-svg-icons'
 
@@ -63,10 +64,11 @@ class HeaderComponent extends Component {
 
                     <Navbar.Collapse id="navbarsExample05">
                         <Nav className = "mr-auto">
-                            <Nav.Link href="/home" className="nav-item active"> <span className="sr-only">(current)</span>HOME</Nav.Link>
-                            <Nav.Link href="/home" className="nav-item">PRODUCTS</Nav.Link>
-                            <Nav.Link href="/home" className="nav-item">CONTACT US</Nav.Link>
-                            <Nav.Link href="/home" className="nav-item">FAQ</Nav.Link>
+                            <Link to="home" smooth={true}><Nav.Link>Home</Nav.Link></Link>
+                            <Link  to="promo" smooth={true} offset={-100}><Nav.Link>Promo</Nav.Link></Link>
+                            <Link  to="products" smooth={true} offset={-100}><Nav.Link>Products</Nav.Link></Link>
+                            <Link  to="contactus" smooth={true} offset={-100}><Nav.Link>Contact Us</Nav.Link></Link>
+                            <Link  to="faq" smooth={true} offset={-100}><Nav.Link>FAQ</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

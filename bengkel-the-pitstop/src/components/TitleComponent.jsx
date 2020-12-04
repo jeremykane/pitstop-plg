@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Carousel from 'react-bootstrap/Carousel'
 import Row from 'react-bootstrap/Row'
-import { Jumbotron, Container, Card } from 'reactstrap';
+import { Jumbotron, Container } from 'reactstrap';
 import BackgroundImage1 from "../assets/bg-img-1.jpg"
 import BackgroundImage2 from "../assets/bg-img-2.jpg"
 import BackgroundImage3 from "../assets/bg-img-3.jpg"
@@ -21,7 +21,7 @@ class TitleComponent extends Component {
                                             <Container fluid>
                                                 <h1 className="display-3">BENGKEL THE PITSTOP</h1>
                                                 <hr className="my-2" />
-                                                <p className="lead">All Solution for your car!</p>
+                                                <p className="lead">Service Mobil Asia and Europe!</p>
                                             </Container>
                                         </Jumbotron>
                                     </div>

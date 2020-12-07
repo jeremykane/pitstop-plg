@@ -12,6 +12,13 @@
     color:white;
 }
 
+a.nav-link{
+    font-weight: bold;
+    color:rgba(255, 255, 255, 0.8)!important;
+}
+
+
+
 /* ANIMATED X */
 .navbar-toggler.x {
     border: none;

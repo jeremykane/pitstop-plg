@@ -1,62 +1,50 @@
 import React, { Component } from "react";
-
+import "../styles/HomeComponentStyling.css"
+import PromoComponent from "./PromoComponent";
+import TitleComponent from "./TitleComponent";
+import ProductsComponent from "./ProductsComponent";
+import ContactUsComponent from "./ContactUsComponent"
+import FAQComponent from "./FAQComponent"
 class HomeComponent extends Component {
 
-    constructor(props) {
-        super(props);
-        this.state = {
-            data : [],
-            displayClosest: false,
-            distanceCalculated: false
-        }
+  constructor(props) {
+    super(props);
+    this.state = {
+      data: [],
+      index: 0,
+
     }
+  }
 
-    render () {
+  handleSelect = e => {
+    console.log(e)
+  }
 
-        return (
-            <div className = "content">
-                <h1> Bengkel The Pitstop </h1>
-                <ul>
-                  <li>
-                    <div>
-                      <p>
-                        <strong> BENGKEL SEGALA JENIS MOBIL </strong>
-                        <span> Jl. Letjen Harun Sohar No. 9 (Simpang Bandara SMB II) </span>
-                      </p>
-                    </div>
+  render() {
 
-                    <div>
-                      <p>
-                        <span>
-                          <strong> Phone:</strong> (0711) 5710200 / 082175311779
-                          <strong> Instagram:</strong> @bengkelthepitstop
-                          <strong> Link Ford-RMA:</strong> <a href="http://ford-rma.co.id/id/pusat-layanan-ford-resmi/">http://ford-rma.co.id/id/pusat-layanan-ford-resmi/</a>
-
-                        </span>
-                      </p>
-                    </div>
-
-                    <a> BENGKEL SEGALA JENIS MOBIL </a>
-                  </li>
-                  <li>
-                    <a> Reservasi Service : </a>
-                    <p> Jl. Letjen Harun Sohar No. 9
-                    (Simpang Bandara SMB II)
-                    Palembang
-                    (0711) 5710200 / 082175311779</p>
-                  </li>
-                  <li>
-                    <a href="https://ford-rma.co.id/id/pusat-layanan-ford-resmi">ford rma</a>
-                  </li>
-                </ul>
-                BENGKEL THE PITSTOP
-Reservasi Service :
-Jl. Letjen Harun Sohar No. 9
-(Simpang Bandara SMB II)
-Palembang
-(0711) 5710200 / 082175311779
-ford-rma.co.id/id/pusat-layanan-ford-resmi
-            </div>
-        )}
+    return (
+      <div id="home">
+        <div id="title">
+          <TitleComponent/>
+        </div>
+        <hr/>
+        <div id="promo">
+          <PromoComponent/>
+        </div>
+        <hr />
+        <div id="products">
+          <ProductsComponent/>
+        </div>
+        <hr />
+        <div id="contactus">
+          <ContactUsComponent/>
+        </div>
+        <hr />
+        <div id="faq">
+          <FAQComponent/>
+        </div>
+      </div>
+    )
+  }
 }
 export default HomeComponent;

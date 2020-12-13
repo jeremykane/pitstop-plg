@@ -16,6 +16,7 @@
 .flip-container, .front, .back {
 	width: 320px;
 	height: 480px;
+	max-width: 100%!important;
 }
 
 /* flip speed goes here */

@@ -1,23 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Libre+Franklin:700&display=swap');
 
-
-.header-logo{
-    width:100px;
-    color:white;
+.header{
+    max-width:100vw!important;
 }
 
 .navbar{
     background-color:rgba(224, 0, 0, 1)!important;
     transition: background-color 0.5s ease;
     color:white;
+    max-width:100%!important;
 }
 
 a.nav-link{
     font-weight: bold;
     color:rgba(255, 255, 255, 0.8)!important;
 }
-
-
 
 /* ANIMATED X */
 .navbar-toggler.x {
@@ -72,6 +69,12 @@ a.nav-link{
     transform: rotate(0);
 }
 
+/* Update Fix Mobile Responsive */
+.header-logo{
+    width:100px;
+    color:white;
+}
+
 .header{
     position:fixed;
     top: 0;
@@ -86,7 +89,7 @@ a.nav-link{
     background-color: rgba(228, 227, 227, 1);
     color:white;
     border-radius:15px 50px 30px 5px;
-    padding:15px;
+    max-width:75%;
 }
 
 

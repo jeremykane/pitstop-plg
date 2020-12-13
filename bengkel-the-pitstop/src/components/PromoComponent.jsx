@@ -24,7 +24,7 @@ class PromoComponent extends Component {
                 <div className="promo-text">
                     <Jumbotron fluid className="my-jumbo section-title">
                         <Container fluid>
-                            <h1 className="display-3">Promo Terbaru</h1>
+                            <h1 className="display-3">Latest Promo</h1>
                             <p className="lead">Promo-promo menarik buat anda!</p>
                         </Container>
                     </Jumbotron>

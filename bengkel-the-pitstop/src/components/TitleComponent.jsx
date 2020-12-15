@@ -27,42 +27,42 @@ class TitleComponent extends Component {
                                     </div>
                                 </Row>
                             </div>
-                            
+
                         </div>
                         <div className="img-overlay>">
-                            <Carousel className="my-carousel">
+                            <Carousel className="my-carousel" interval={5000}>
                                 <Carousel.Item>
                                     <img
-                                    className="carousel-img"
-                                    src={BackgroundImage1} alt="First slide"
+                                        className="carousel-img"
+                                        src={BackgroundImage1} alt="First slide"
                                     />
                                     <Carousel.Caption>
-                                    <h3>First Image</h3>                            
-                                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                                        <h3>First Image</h3>
+                                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
                                 <Carousel.Item>
                                     <img
-                                    className="carousel-img"
-                                    src={BackgroundImage2}
-                                    alt="Third slide"
+                                        className="carousel-img"
+                                        src={BackgroundImage2}
+                                        alt="Third slide"
                                     />
                                     <Carousel.Caption>
-                                    <h3>Second Image</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                        <h3>Second Image</h3>
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>                        <Carousel.Item>
                                     <img
-                                    className="carousel-img"
-                                    src={BackgroundImage3}
-                                    alt="Third slide"
+                                        className="carousel-img"
+                                        src={BackgroundImage3}
+                                        alt="Third slide"
                                     />
                                     <Carousel.Caption>
-                                    <h3>Third Image</h3>
-                                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                                        <h3>Third Image</h3>
+                                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                                     </Carousel.Caption>
                                 </Carousel.Item>
-                                </Carousel>
+                            </Carousel>
                         </div>
                     </div>
                 </div>

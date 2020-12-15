@@ -23,13 +23,13 @@ class ContactUsComponent extends Component {
                     </Container>
                 </Jumbotron>
                 <Row className="justify-content-md-center">
-                    <Col lg="8">
+                    <Col>
                         <Card className="text-center working-hours">
                             <Card.Body>
                                 <Card.Title>
-                                    Opening Hours:
+                                    <h2>Opening Hours:</h2>
                                 </Card.Title>
-                                <Table hover responsive="lg" className="working-hours-table">
+                                <Table responsive="lg" className="working-hours-table">
                                     <thead></thead>
                                     <tbody>
                                         <tr><th>Monday</th><td>8:30am - 5pm</td></tr>
@@ -44,7 +44,9 @@ class ContactUsComponent extends Component {
                             </Card.Body>
                         </Card>
                     </Col>
-                    <Col lg="4">
+                </Row>
+                <Row>
+                    <Col>
                         <Card className="text-center contact-reservation">
                             <Card.Body>
                                 <Card.Title>
@@ -54,13 +56,13 @@ class ContactUsComponent extends Component {
                                     <thead>
                                     </thead>
                                     <tbody>
-                                        <tr><th><a className="fab fa-instagram" href="/"><span className="hidden">a</span></a></th><td>@bengkelthepitstop</td></tr>
                                         <tr><th><a className="fab fa-whatsapp" href="/"><span className="hidden">a</span></a></th><td>0821-7531-1779</td></tr>
                                     </tbody>
                                 </Table>
                             </Card.Body>
                         </Card>
                     </Col>
+                    
                 </Row>
             </div >
         );

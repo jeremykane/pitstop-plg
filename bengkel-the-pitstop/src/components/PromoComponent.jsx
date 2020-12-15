@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Jumbotron, Container, Card } from 'reactstrap';
+import { Jumbotron, Container, Card, Media } from 'reactstrap';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.min.css';
 import 'owl.carousel/dist/assets/owl.theme.default.min.css'
@@ -10,13 +10,45 @@ import Promo4 from '../assets/promo1.png'
 import '../styles/PromoComponentStyle.css'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import MediaQuery from 'react-responsive'
 class PromoComponent extends Component {
     constructor() {
         super();
         this.state = {
+            numberOfPromo: 1
         }
     }
-
+    
+    PromoCarousel(e){
+        return(
+                <OwlCarousel className="owl-theme" items={e} loop={true} stagePadding={0} autoplay>
+                    <div className="item">
+                        <img src={Promo1} alt="promo1" className="promo-img">
+                        </img>
+                    </div>
+                    <div className="item">
+                        <img src={Promo2} alt="promo2" className="promo-img">
+                        </img>
+                    </div>
+                    <div className="item">
+                        <img src={Promo3} alt="promo3" className="promo-img">
+                        </img>
+                    </div>
+                    <div className="item">
+                        <img src={Promo4} alt="promo3" className="promo-img">
+                        </img>
+                    </div>
+                    <div className="item">
+                        <img src={Promo3} alt="promo3" className="promo-img">
+                        </img>
+                    </div>
+                    <div className="item">
+                        <img src={Promo2} alt="promo3" className="promo-img">
+                        </img>
+                    </div>
+                </OwlCarousel>
+        )
+    }
     render() {
         return (
             <div className="content">
@@ -30,32 +62,17 @@ class PromoComponent extends Component {
                     </Jumbotron>
                 </div>
                 <div className="promo-carousel">
-                    <OwlCarousel className="owl-theme" items="1" center={true} loop={true} stagePadding={50}  autoWidth autoplay>
-                        <div className="item">
-                            <img src={Promo1} alt="promo1" className="promo-img">
-                            </img>
-                        </div>
-                        <div className="item">
-                            <img src={Promo2} alt="promo2" className="promo-img">
-                            </img>
-                        </div>
-                        <div className="item">
-                            <img src={Promo3} alt="promo3" className="promo-img">
-                            </img>
-                        </div>
-                        <div className="item">
-                            <img src={Promo4} alt="promo3" className="promo-img">
-                            </img>
-                        </div>
-                        <div className="item">
-                            <img src={Promo3} alt="promo3" className="promo-img">
-                            </img>
-                        </div>
-                        <div className="item">
-                            <img src={Promo2} alt="promo3" className="promo-img">
-                            </img>
-                        </div>
-                    </OwlCarousel>
+                    <MediaQuery maxWidth={576}>
+                        {this.PromoCarousel(1)}
+                    </MediaQuery>
+                    <MediaQuery minWidth={576} maxWidth={1699}>
+                        {this.PromoCarousel(2)}
+                    </MediaQuery>
+                    <MediaQuery minWidth={1700}>
+                        {this.PromoCarousel(3)}
+                    </MediaQuery>
+                    
+                    
                 </div>
                 </Row>
         </div>

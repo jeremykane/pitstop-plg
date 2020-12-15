@@ -72,20 +72,9 @@
 	float: center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-bottom:50px;
-	/* New Test Background */
-	/* background-image:url('../assets/carbon.jpg');
-	background-size:auto;
-	background-position:center;
-	background-repeat:no-repeat;
-	border-radius: 25px;
-	padding: 5%; */
 }
 
 .products-col{
-	margin-left: auto;
-	margin-right: auto;
-	float: center;
 	margin-top:1.5vh;
 	margin-bottom:1.5vh;
 }

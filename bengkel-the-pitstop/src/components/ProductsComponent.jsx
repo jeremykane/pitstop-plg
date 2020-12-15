@@ -17,14 +17,12 @@ class ProductsComponent extends Component {
     render() {
         return (
             <div className="content">
-                <Row>
-                    <Jumbotron fluid className="my-jumbo section-title" id="products-title">
-                            <Container fluid>
-                                <h1 className="display-3">Our Products</h1>
-                                <p className="lead">Produk-produk yang kami miliki!</p>
-                            </Container>
-                    </Jumbotron>
-                </Row>
+                <Jumbotron fluid className="my-jumbo section-title">
+                    <Container fluid>
+                        <h1 className="display-3">Our Products</h1>
+                        <p className="lead">Produk-produk yang kami miliki!</p>
+                    </Container>
+                </Jumbotron>
                 <Row className="products-row">                    
                     <Col className = "products-col">
                     <div className="flip-container">

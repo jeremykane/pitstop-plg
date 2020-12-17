@@ -75,3 +75,11 @@ a.fa-instagram:hover:after, a.fa-whatsapp:hover:after {
 a.fa-instagram:hover:before, a.fa-whatsapp:hover:before {
 	transform: rotateY(90deg);
 } */
+
+.working-hours-table th{
+	text-align:right;
+}
+
+.working-hours-table td{
+	text-align:left;
+}

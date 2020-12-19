@@ -5,7 +5,7 @@
 .contact-reservation .card-body, .working-hours .card-body{
     padding:70px 0!important;
 }
-/* 
+/*
 a.fa-instagram {
 	font-family: icomoon;
     font-size: 40px;
@@ -40,7 +40,7 @@ a.fa-instagram:after {
     position: absolute;
 	transform-origin: 50% 50% -32px;
     transition: all 0.3s ease-out;
-    background-color: #EAEAEA;	
+    background-color: #EAEAEA;
 }
 
 a.fa-whatsapp:before,
@@ -49,7 +49,7 @@ a.fa-whatsapp:after {
     position: absolute;
 	transform-origin: 50% 50% -32px;
     transition: all 0.3s ease-out;
-    background-color: #EAEAEA;	
+    background-color: #EAEAEA;
 }
 
 a.fa-instagram:before, a.fa-whatsapp:before {

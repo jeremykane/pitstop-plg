@@ -19,7 +19,7 @@ class FooterComponent extends Component {
 
                     <div className="container text-center text-md-left">
 
-                        <div className="row">
+                        <div className="row" >
 
                             <div className="col-md-4 col-lg-3 mr-auto my-md-4 my-0 mt-4 mb-1">
 
@@ -37,7 +37,7 @@ class FooterComponent extends Component {
 
                                 <h5 className="font-weight-bold text-uppercase mb-4">About</h5>
 
-                                <ul className="list-unstyled">
+                                <ul className="list-unstyled" id="footer-about">
                                     <li>
                                         <p>
                                             <a href="/">PROJECTS</a>

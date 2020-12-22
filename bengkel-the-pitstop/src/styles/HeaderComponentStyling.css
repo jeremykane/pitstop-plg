@@ -5,7 +5,7 @@
 }
 
 .navbar{
-    background-color:rgb(224, 0, 0)!important;
+    background-color:rgb(167, 4, 4)!important;
     transition: background-color 0.5s ease;
     color:white;
     max-width:100%!important;
@@ -13,9 +13,10 @@
 
 a.nav-link{
     font-weight: bold;
-    color:rgba(255, 255, 255, 0.8)!important;
+    color:rgb(255, 255, 255)!important;
     margin-left: 0.5vw;
     margin-right:1.25vw;
+    font-size: 20px!important;
 }
 
 /* ANIMATED X */
@@ -82,23 +83,19 @@ a.nav-link{
 
 @media screen and (orientation:portrait) {
     .header-logo{
-        width:20vw;
+        width:32.5vw;
         color:white;
     }
 }
 
 @media screen and (orientation:landscape) {
     .header-logo{
-        width:20vh;
+        width:32.5vh;
         color:white;
     }
 }
 .header-brand{
-    margin-top:-10px;
-    margin-bottom:-8px;
-    margin-left:-25px;
     padding:15px;
-    background-color: rgba(0, 0, 0, 0.815);
     color:white;
     border-radius:15px 50px 30px 5px;
     max-width:75%;
@@ -115,13 +112,13 @@ a.nav-link{
 @media (min-width: 576px) {
 
     /* Medium devices (tablets, 768px and up) */
-    
+
     @media (min-width: 768px) { }
-    
+
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px){
         .header-logo{
-            width:10vw;
+            width:20vw;
             color:white;
         }
         .navbar{
@@ -131,17 +128,18 @@ a.nav-link{
         }
 
         .scrolling{
-            background-color:rgb(224, 0, 0)!important;
+            background-color:rgb(167, 4, 4)!important;
             transition: background-color 0.5s ease;
         }
 
         .header-brand{
             background-color: rgba(184, 184, 184, 0);
             transition: background-color 0.5s ease;
+            /* display:none; */
         }
 
         .header-brand-scrolling{
-            background-color: rgba(0, 0, 0, 0.815);
+            /* background-color: rgba(0, 0, 0, 0.815); */
             transition: background-color 0.5s ease;
         }
 
@@ -149,17 +147,17 @@ a.nav-link{
             color:white;
             transition: color 1s ease;
         }
-        
+
         .header-brand-scrolling #nav-divider{
-            color: rgba(255, 255, 255, 0);
+            /* color: rgba(255, 255, 255, 0); */
             transition: color 0.5s ease;
         }
-    
+
     }
     /* Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) {
         .header-logo{
-            width:8vw;
+            width:15vw;
             color:white;
         }
     }

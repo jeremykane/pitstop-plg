@@ -81,10 +81,18 @@
   width: 100%;
 }
 
-.carousel-img{
-  height:100vh;
-  max-width:100vw;
-  /* display:none; */
+@media screen and (orientation:portrait) {
+  .carousel-img{
+    height:100vh;
+    max-width:100vw;
+    /* display:none; */
+  }
+}
+
+@media screen and (orientation:landscape) {
+  .carousel-img{
+    width:100%;
+  }
 }
 
 .promo-text{

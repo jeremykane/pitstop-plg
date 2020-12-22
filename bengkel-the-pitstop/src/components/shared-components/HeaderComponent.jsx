@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 import { withRouter } from "react-router-dom";
 import FordLogo from "../../assets/Ford_logo.png"
 import MahindraLogo from "../../assets/Mahindra-logo.png"
-import PitstopLogo from "../../assets/images.jpg"
+import PitstopLogo from "../../assets/pitstop-logo.png"
 import "../../styles/HeaderComponentStyling.css"
 import { Link } from 'react-scroll'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -14,7 +14,8 @@ class HeaderComponent extends Component {
         super(props);
         this.state = {
             scrolling: false,
-            className: ''
+            className: '',
+            headerBrand: 'header-brand'
         }
         window.onScroll = function () {
             this.test();
@@ -35,10 +36,10 @@ class HeaderComponent extends Component {
 
     handleScroll(event) {
         if (window.scrollY === 0 && this.state.scrolling === true) {
-            this.setState({ scrolling: false, className: 'nav-bar' });
+            this.setState({ scrolling: false, className: 'nav-bar', headerBrand: 'header-brand' });
         }
         else if (window.scrollY !== 0 && this.state.scrolling !== true) {
-            this.setState({ scrolling: true, className: 'nav-bar scrolling' });
+            this.setState({ scrolling: true, className: 'nav-bar scrolling', headerBrand: 'header-brand header-brand-scrolling' });
         }
     }
 
@@ -51,10 +52,11 @@ class HeaderComponent extends Component {
             <header>
                 <Navbar variant="dark" className={this.state.className} expand="lg" >
 
-                    <div className="header-brand">
+                    <div className={this.state.headerBrand}>
                         <Navbar.Brand href="/home"><img src={PitstopLogo} className="header-logo" alt="Pitstop"></img></Navbar.Brand>
                         <Navbar.Brand href="/home"><img src={FordLogo} className="header-logo" alt="Ford"></img></Navbar.Brand>
                         <Navbar.Brand href="/home"><img src={MahindraLogo} className="header-logo" alt="Mahindra"></img></Navbar.Brand>
+                        <span id="nav-divider">|</span>
                     </div>
                     <button className="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="icon-bar"></span>

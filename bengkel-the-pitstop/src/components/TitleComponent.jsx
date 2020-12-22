@@ -21,7 +21,7 @@ class TitleComponent extends Component {
                                             <Container fluid>
                                                 <h1 className="display-3">BENGKEL THE PITSTOP</h1>
                                                 <hr className="my-2" />
-                                                <p className="lead">Service Mobil Asia and Europe!</p>
+                                                <p className="lead">Service Mobil Asia and Eropa!</p>
                                             </Container>
                                         </Jumbotron>
                                     </div>

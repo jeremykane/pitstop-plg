@@ -137,18 +137,22 @@ a.nav-link{
 
         .header-brand{
             background-color: rgba(184, 184, 184, 0);
+            transition: background-color 0.5s ease;
         }
 
         .header-brand-scrolling{
             background-color: rgba(0, 0, 0, 0.815);
+            transition: background-color 0.5s ease;
         }
 
         #nav-divider{
             color:white;
+            transition: background-color 0.5s ease;
         }
         
         .header-brand-scrolling #nav-divider{
-            color: rgba(255, 255, 255, 0)
+            color: rgba(255, 255, 255, 0);
+            transition: background-color 0.5s ease;
         }
     
     }

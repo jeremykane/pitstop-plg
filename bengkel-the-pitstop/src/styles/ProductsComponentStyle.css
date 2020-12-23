@@ -1,8 +1,6 @@
 #products{
-	/* background-image:url('../assets/concrete.jpg'); */
 	background-size:cover;
 	height:auto;
-	/* background-color:rgba(0, 0, 0, 0.747); */
 }
 
 /* entire container, keeps perspective */
@@ -32,10 +30,10 @@
 /* hide back of pane during swap */
 .front, .back {
 	backface-visibility: hidden;
-
 	position: absolute;
 	top: 0;
 	left: 0;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
 }
 
 /* front pane, placed above back */

@@ -27,9 +27,9 @@ class ContactUsComponent extends Component {
                         <Card className="text-center working-hours">
                             <Card.Body>
                                 <Card.Title>
-                                    <h2>Opening Hours:</h2>
+                                    <h2>Opening Hours :</h2>
                                 </Card.Title>
-                                <Table responsive="lg" className="working-hours-table">
+                                <Table responsive="lg" className="working-hours-table table">
                                     <thead></thead>
                                     <tbody>
                                         <tr><th>Monday</th><td>8:30am - 5pm</td></tr>
@@ -41,28 +41,13 @@ class ContactUsComponent extends Component {
                                         <tr><th>Sunday</th><td>Closed</td></tr>
                                     </tbody>
                                 </Table>
-                            </Card.Body>
-                        </Card>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col>
-                        <Card className="text-center contact-reservation">
-                            <Card.Body>
                                 <Card.Title>
                                     Reservation Via:
                                 </Card.Title>
-                                <Table className="contact-us-table">
-                                    <thead>
-                                    </thead>
-                                    <tbody>
-                                        <tr><th><a className="fab fa-whatsapp" href="/"><span className="hidden">a</span></a></th><td>0821-7531-1779</td></tr>
-                                    </tbody>
-                                </Table>
+                                <a className="fab fa-whatsapp" href="/"><span className="hidden">a</span></a>0821-7531-1779
                             </Card.Body>
                         </Card>
                     </Col>
-                    
                 </Row>
             </div >
         );

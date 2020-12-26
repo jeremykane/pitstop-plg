@@ -96,3 +96,11 @@ a.fa-instagram:hover:before, a.fa-whatsapp:hover:before {
 	max-width:70%;
 	/* display:none; */
 }
+
+.contact-row .card{
+	padding-top:2.5%;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 0.7px 5px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 2.5%;
+}
+
+

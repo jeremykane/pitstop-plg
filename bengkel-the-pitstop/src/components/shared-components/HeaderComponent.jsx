@@ -65,10 +65,10 @@ class HeaderComponent extends Component {
                     <Navbar.Collapse id="navbarsExample05">
                         <Nav className="mynav">
                             <Link to="home" smooth={true}><Nav.Link>HOME</Nav.Link></Link>
-                            <Link to="promo" smooth={true} offset={-100}><Nav.Link>PROMO</Nav.Link></Link>
-                            <Link to="products" smooth={true} offset={-100}><Nav.Link>PRODUCTS</Nav.Link></Link>
-                            <Link to="contactus" smooth={true} offset={-100}><Nav.Link>CONTACT US</Nav.Link></Link>
-                            <Link to="faq" smooth={true} offset={-100}><Nav.Link>FAQ</Nav.Link></Link>
+                            <Link to="promo" smooth={true} offset={-170}><Nav.Link>PROMO</Nav.Link></Link>
+                            <Link to="products" smooth={true} offset={-120}><Nav.Link>PRODUCTS</Nav.Link></Link>
+                            <Link to="contactus" smooth={true} offset={-120}><Nav.Link>CONTACT US</Nav.Link></Link>
+                            <Link to="faq" smooth={true} offset={-120}><Nav.Link>FAQ</Nav.Link></Link>
                         </Nav>
                     </Navbar.Collapse>
                 </Navbar>

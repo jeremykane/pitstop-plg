@@ -16,12 +16,12 @@
 
 .overlay{
     position:relative;
-    height: auto;;
+    height:auto;
 }
 
 .text-overlay, .img-overlay{
     width: 100%;
-    height: auto;;
+    height: auto;
     position: absolute;
     top:0;
     left:0;
@@ -43,13 +43,6 @@
 
 .carousel-control-prev, .carousel-control-next{
     display:none!important;
-}
-
-.logoRow{
-    right:0;
-    float:right;
-    padding:10;
-    background-color: rgba(180, 180, 180, 0.562)
 }
 
 .title-logo{

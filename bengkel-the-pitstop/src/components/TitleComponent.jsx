@@ -49,7 +49,8 @@ class TitleComponent extends Component {
                                         src={BackgroundImage2}
                                         alt="Third slide"
                                     />
-                                </Carousel.Item>                        <Carousel.Item>
+                                </Carousel.Item>                        
+                                <Carousel.Item>
                                     <img
                                         className="carousel-img"
                                         src={BackgroundImage3}

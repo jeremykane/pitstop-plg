@@ -95,7 +95,7 @@ a.nav-link{
     }
 }
 .header-brand{
-    padding:15px;
+    padding:7.5px;
     color:white;
     border-radius:15px 50px 30px 5px;
     max-width:75%;
@@ -118,7 +118,7 @@ a.nav-link{
     /* Large devices (desktops, 992px and up) */
     @media (min-width: 992px){
         .header-logo{
-            width:20vw;
+            width:17.5vw;
             color:white;
         }
         .navbar{
@@ -157,7 +157,7 @@ a.nav-link{
     /* Extra large devices (large desktops, 1200px and up) */
     @media (min-width: 1200px) {
         .header-logo{
-            width:15vw;
+            width:13vw;
             color:white;
         }
     }

@@ -169,11 +169,11 @@
 }
 }
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1800px) {
-  .content{
-    width: 80vw;
+  @media (min-width: 1800px) {
+    .content{
+      width: 80vw;
+    }
   }
-}
 }
 
 hr {

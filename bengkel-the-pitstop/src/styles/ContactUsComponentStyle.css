@@ -81,12 +81,12 @@ a.fa-instagram:hover:before, a.fa-whatsapp:hover:before {
 }
 
 .working-hours-table th{
-	text-align:center;
+	text-align:right;
 	width:50%
 }
 
 .working-hours-table td{
-	text-align:center;
+	text-align:left;
 	width: 50%;
 }
 

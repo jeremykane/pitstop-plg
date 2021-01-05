@@ -54,7 +54,7 @@ class HeaderComponent extends Component {
 
                     <div className={this.state.headerBrand}>
                         <Navbar.Brand href="/home"><img src={PitstopLogo} className="header-logo" alt="Pitstop"></img></Navbar.Brand>
-                        <span id="nav-divider">|</span>
+                        {/* <span id="nav-divider">|</span> */}
                     </div>
                     <button className="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="icon-bar"></span>
@@ -63,7 +63,7 @@ class HeaderComponent extends Component {
                     </button>
 
                     <Navbar.Collapse id="navbarsExample05">
-                        <Nav className="mynav">
+                        <Nav className="mynav ml-auto">
                             <Link to="home" smooth={true}><Nav.Link>HOME</Nav.Link></Link>
                             <Link to="promo" smooth={true} offset={-170}><Nav.Link>PROMO</Nav.Link></Link>
                             <Link to="products" smooth={true} offset={-120}><Nav.Link>PRODUCTS</Nav.Link></Link>

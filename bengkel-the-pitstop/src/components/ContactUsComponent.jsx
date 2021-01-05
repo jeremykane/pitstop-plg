@@ -48,7 +48,7 @@ class ContactUsComponent extends Component {
                             <h3>Reservation Via:</h3>
                         </Card.Title>
                         <Card.Body>
-                            <a className="fab fa-whatsapp" href="/https://wa.me/+6282175311779"><span className="hidden">a</span></a>0821-7531-1779
+                            <a className="fab fa-whatsapp" href="https://wa.me/+6282175311779"><span className="hidden">a</span></a>0821-7531-1779
                         </Card.Body>
                    
                                 

@@ -54,7 +54,6 @@ class HeaderComponent extends Component {
 
                     <div className={this.state.headerBrand}>
                         <Navbar.Brand href="/home"><img src={PitstopLogo} className="header-logo" alt="Pitstop"></img></Navbar.Brand>
-                        {/* <span id="nav-divider">|</span> */}
                     </div>
                     <button className="navbar-toggler x" type="button" data-toggle="collapse" data-target="#navbarsExample05" aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="icon-bar"></span>

@@ -24,8 +24,18 @@
 	position: relative;
 }
 
+.flipper-title{
+	text-align:center!important;
+	margin-top:50%;
+}
+
+.flipper-desc{
+	text-align:center!important;
+	margin-top:50%;
+}
 /* hide back of pane during swap */
 .front, .back {
+	color:white;
 	backface-visibility: hidden;
 	position: absolute;
 	top: 0;
@@ -43,24 +53,30 @@
 
 /* back, initially hidden pane */
 .back {
-    background-color:lightsteelblue;
+	background-image: url('../assets/flipper-background.png');
+	background-size: cover;
 	transform: rotateY(180deg);
 }
 
 #ford-card{
-    background-color: blue !important;
+	/* background-color: blue !important; */
+	background-image: url('../assets/ford-product.png');
+	background-size: cover;
 }
 
 #mahindra-card{
-    background-color: red !important;
+	background-image: url('../assets/mahindra-product.png');
+	background-size: cover;
 }
 
 #service-card{
-    background-color: grey !important;
+	background-image: url('../assets/service-product.png');
+	background-size: cover;
 }
 
-#sparepartd-card{
-    background-color: black !important;
+#part-card{
+	background-image: url('../assets/sparepart-product.png');
+	background-size: cover;
 }
 
 .products-row{

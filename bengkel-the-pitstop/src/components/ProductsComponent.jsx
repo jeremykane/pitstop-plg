@@ -28,10 +28,10 @@ class ProductsComponent extends Component {
                     <div className="flip-container">
                         <div className="flipper">
                             <div className="front" id="ford-card">
-                                FORD
+                                <h1 className="flipper-title">FORD</h1>
                             </div>
                             <div className="back">
-                                Hello From the Back
+                                <h3 className="flipper-desc">HELLO FROM THE BACK</h3>
                             </div>
                         </div>
                     </div>
@@ -40,10 +40,10 @@ class ProductsComponent extends Component {
                         <div className="flip-container">
                             <div className="flipper">
                                 <div className="front" id="mahindra-card">
-                                    MAHINDRA
+                                    <h1 className="flipper-title">MAHINDRA</h1>
                                 </div>
                                 <div className="back">
-                                    Hello From the Back
+                                    <h3 className="flipper-desc">HELLO FROM THE BACK</h3>
                                 </div>
                             </div>
                         </div>
@@ -52,10 +52,10 @@ class ProductsComponent extends Component {
                         <div className="flip-container">
                             <div className="flipper">
                                 <div className="front"  id="service-card">
-                                    SERVICE
+                                    <h1 className="flipper-title">SERVICE</h1>
                                 </div>
-                                <div className="back">
-                                    Hello From the Back
+                                <div className="back">  
+                                    <h3 className="flipper-desc">HELLO FROM THE BACK</h3>
                                 </div>
                             </div>
                         </div>
@@ -63,11 +63,11 @@ class ProductsComponent extends Component {
                     <Col className = "products-col">
                         <div className="flip-container">
                             <div className="flipper">
-                                <div className="front" id="sparepart-card">
-                                    SPAREPART
+                                <div className="front" id="part-card">
+                                    <h1 className="flipper-title">SPAREPART</h1>
                                 </div>
                                 <div className="back">
-                                    Hello From the Back
+                                    <h3 className="flipper-desc">HELLO FROM THE BACK</h3>
                                 </div>
                             </div>
                         </div>

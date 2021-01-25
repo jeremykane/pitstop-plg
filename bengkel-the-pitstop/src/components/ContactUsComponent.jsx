@@ -41,6 +41,19 @@ class ContactUsComponent extends Component {
                                     <tr><th>Sunday</th><td>Closed</td></tr>
                                 </tbody>
                             </Table>
+                            <table class="container">
+                                <thead>
+                                </thead>
+                                <tbody>
+                                    <tr><th>Monday</th><td>8:30am - 5pm</td></tr>
+                                    <tr><th>Tuesday</th><td>8:30am - 5pm</td></tr>
+                                    <tr><th>Wednesday</th><td>8:30am - 5pm</td></tr>
+                                    <tr><th>Thursday</th><td>8:30am - 5pm</td></tr>
+                                    <tr><th>Friday</th><td>8:30am - 5pm</td></tr>
+                                    <tr><th>Saturday</th><td>9am - 4pm</td></tr>
+                                    <tr><th>Sunday</th><td>Closed</td></tr>
+                                </tbody>
+                                </table>
                         </Card.Body>       
                     </Card>
                     <Card>

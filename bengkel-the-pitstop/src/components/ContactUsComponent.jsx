@@ -29,7 +29,7 @@ class ContactUsComponent extends Component {
                         <h2>Opening Hours :</h2>
                         </Card.Title>
                         <Card.Body>
-                            <Table responsive="lg" className="working-hours-table table">
+                            {/* <Table responsive="lg" className="working-hours-table table">
                                 <thead></thead>
                                 <tbody>
                                     <tr><th>Monday</th><td>8:30am - 5pm</td></tr>
@@ -40,7 +40,7 @@ class ContactUsComponent extends Component {
                                     <tr><th>Saturday</th><td>9am - 4pm</td></tr>
                                     <tr><th>Sunday</th><td>Closed</td></tr>
                                 </tbody>
-                            </Table>
+                            </Table> */}
                             <table class="container">
                                 <thead>
                                 </thead>

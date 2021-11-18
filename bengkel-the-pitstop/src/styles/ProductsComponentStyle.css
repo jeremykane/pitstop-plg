@@ -1,0 +1,135 @@
+#products{
+	background-size:cover;
+	height:auto;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.flipper-title{
+	text-align:center!important;
+	margin-top:50%;
+}
+
+.flipper-desc{
+	text-align:center!important;
+	margin-top:50%;
+}
+/* hide back of pane during swap */
+.front, .back {
+	color:white;
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 5px 18px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* front pane, placed above back */
+.front {
+    background-color:lightcyan;
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	background-image: url('../assets/flipper-background.png');
+	background-size: cover;
+	transform: rotateY(180deg);
+}
+
+#ford-card{
+	/* background-color: blue !important; */
+	background-image: url('../assets/ford-product.png');
+	background-size: cover;
+}
+
+#mahindra-card{
+	background-image: url('../assets/mahindra-product.png');
+	background-size: cover;
+}
+
+#service-card{
+	background-image: url('../assets/service-product.png');
+	background-size: cover;
+}
+
+#part-card{
+	background-image: url('../assets/sparepart-product.png');
+	background-size: cover;
+}
+
+.products-row{
+	float: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.products-col{
+	margin-top:1.5vh;
+	margin-bottom:1.5vh;
+}
+
+
+@media screen and (orientation:portrait) {
+	.flip-container, .front, .back {
+		width: 80vw;
+		height: calc(80vw * 1.25);
+		max-width: 100%!important;
+	}
+}
+  
+  @media screen and (orientation:landscape) {
+	.flip-container, .front, .back {
+		width: 40vw;
+		height: calc(40vw * 1.25);
+		max-width: 100%!important;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) {
+
+	/* Medium devices (tablets, 768px and up) */
+	
+	@media (min-width: 768px) {
+		.flip-container, .front, .back {
+			width: 35vw;
+			height: calc(35vw * 1.25);
+			max-width: 100%!important;
+		}
+	
+	/* Large devices (desktops, 992px and up) */
+	@media (min-width: 992px) {
+	}
+	}
+	/* Extra large devices (large desktops, 1200px and up) */
+	@media (min-width: 1300px) {
+		.flip-container, .front, .back {
+			width: 17.5vw;
+			height: calc(17.5vw * 1.25);
+			max-width: 100%!important;
+		}
+	}
+	}

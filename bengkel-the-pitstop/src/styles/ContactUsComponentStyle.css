@@ -1,0 +1,106 @@
+.working-hours, .contact-reservation{
+    height:100%;
+}
+
+.contact-reservation .card-body, .working-hours .card-body{
+    padding:70px 0!important;
+}
+/*
+a.fa-instagram {
+	font-family: icomoon;
+    font-size: 40px;
+	line-height: 65px;
+    speak: none;
+	color: #5D5D5D;
+	text-decoration: none;
+	text-align: center;
+    display: inline-block;
+	position: relative;
+    width: 64px;
+    height: 64px;
+	overflow: hidden;
+	transition: all .3s;
+}
+a:before,
+a:after {
+	transition: all .3s;
+}
+
+a.fa-instagram, a.fa-whatsapp{
+    perspective: 700px;
+	-webkit-transform-style: preserve-3d;
+	overflow: visible !important;
+	width: 50px;
+    height: 50px;
+}
+
+a.fa-instagram:before,
+a.fa-instagram:after {
+    content: "\f16d";
+    position: absolute;
+	transform-origin: 50% 50% -32px;
+    transition: all 0.3s ease-out;
+    background-color: #EAEAEA;
+}
+
+a.fa-whatsapp:before,
+a.fa-whatsapp:after {
+    content: "\f232";
+    position: absolute;
+	transform-origin: 50% 50% -32px;
+    transition: all 0.3s ease-out;
+    background-color: #EAEAEA;
+}
+
+a.fa-instagram:before, a.fa-whatsapp:before {
+	z-index: 1;
+}
+
+a.fa-instagram:after {
+    background-color: orange;
+	color: white;
+	transform: rotateY(-90deg);
+}
+
+a.fa-whatsapp:after {
+    background-color: lightgreen;
+	color: white;
+	transform: rotateY(-90deg);
+}
+
+a.fa-instagram:hover:after, a.fa-whatsapp:hover:after {
+	z-index: 2;
+	transform: rotateY(0);
+}
+a.fa-instagram:hover:before, a.fa-whatsapp:hover:before {
+	transform: rotateY(90deg);
+} */
+
+.working-hours{
+	/* background-color:beige!important; */
+}
+
+.working-hours-table th{
+	text-align:right;
+	width:50%
+}
+
+.working-hours-table td{
+	text-align:left;
+	width: 50%;
+}
+
+.table-responsive-lg{
+	margin-left: auto;
+	margin-right: auto;
+	max-width:70%;
+	/* display:none; */
+}
+
+.contact-row .card{
+	padding-top:2.5%;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 0.7px 5px 0 rgba(0, 0, 0, 0.19);
+	padding-bottom: 2.5%;
+}
+
+
